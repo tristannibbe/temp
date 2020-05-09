@@ -129,17 +129,17 @@ portrait.scale =0.25,0.25
 title.offset =159,13;Position of title (Arcade Mode, etc)
 title.font =-1;
 ;Big portraits
-p1.face.offset =0,440;Position to put big portrait
+p1.face.offset =-640,-240;Position to put big portrait
 p1.face.scale =0.5,0.5
 p1.face.facing =1;*2001.04.01 NEW*
-p2.face.offset =1280,440
+p2.face.offset =640,-240
 p2.face.scale =0.5,0.5
-p2.face.facing =-1;*2001.04.01 NEW*
+p2.face.facing =1;*2001.04.01 NEW*
 ;Name
-p1.name.offset =150,650;Position to put name
+p1.name.offset =150,600;Position to put name
 p1.name.font =6,0,0;Set to -1 for no display
 p1.name.spacing = 0,26
-p2.name.offset =1130,650
+p2.name.offset =1130,600
 p2.name.font =6,0,0
 p2.name.spacing = 0,26
 ;Stage select
@@ -336,13 +336,13 @@ fadeout.time = 25
 
 ;Big portraits
 p1.spr = 9000, 1
-p1.offset =  200,288
+p1.offset =  -440,-423
 p1.facing = 1
 p1.scale = 0.5,0.5
 ;p1.window = 60,30, 539,589
 p2.spr = 9000, 1
-p2.offset = 1080,288
-p2.facing = -1
+p2.offset = 440,-423
+p2.facing = 1
 p2.scale = 0.5,0.5
 ;p2.window = 741,30, 1220,589
 ;Names
